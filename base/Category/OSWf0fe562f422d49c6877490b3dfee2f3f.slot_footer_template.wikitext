@@ -1,0 +1,32 @@
+==Prozesse==
+<div class="pagebot-button" 
+     data-config='{
+         "label": "➕ Prozess erstellen",
+         "params":{
+             "categories": ["Category:OSWfa1cfa8a0fb14b188686bf8493d466fe"],
+             "jsondata": {
+                 "description": [],
+                 "attachments": [],
+                 "input": ["{{FULLPAGENAME}}"]
+             }
+         }
+     }'>
+</div>
+{{#ask: [[HasInput::{{FULLPAGENAME}}]]
+|?HasStartDateAndTime#LOCL@TO=Startzeit
+|?HasCreator=Ersteller
+|?HasDescription=Beschreibung
+|?HasImage=Bilder
+|?HasFileAttachment=Dokumente
+|format=template
+|template=Prozesszeile
+|intro=<table class="wikitable sortable"><tr><th>Seite</th><th>Startzeit</th><th>Ersteller</th><th>Beschreibung</th><th>Anhänge</th></tr>
+|outro=</table>
+|sort=HasStartDateAndTime
+|order=desc
+}}
+
+== Barcode ==
+<div class="QrCodeGenerator" data-config='{"type": "1D", "text": "{{{serial_number}}}", "caption": "{{{serial_number}}}", "width": 4.8, "height": 100, "print": false, "print_unit": "mm", "print_orientation": "landscape", "print_format": [76.2,25.4], "print_margin": [3,3,3,3], "print_scale": 0.115}' style="width: 200px;"></div>
+
+<div class="PrefectStatusBadge" data-config='{ "uuid": "{{uuid}}", "workflow_title": "Item:OSW861485242bf556f0943f6e62f0d784f9", "parent": "{{FULLPAGENAME}}", "parameters": {"request": {"uuid": "{{uuid}}", "osw_domain": "{{SERVERNAME}}", "subject": "{{FULLPAGENAME}}", "serial_number": ["{{{serial_number}}}"]}}}'></div>
