@@ -1,6 +1,6 @@
 {
-    "publisher": "OpenSemanticWorld",
-    "publisherURL": "https://github.com/OpenSemanticWorld-Packages/world.opensemantic.base",
+    "publisher": "Terravac",
+    "publisherURL": "https://github.com/Terravac/world.opensemantic.base",
     "author": [
         "Simon Stier",
         "Lukas Gold",
@@ -19,7 +19,7 @@
             "requiredPackages": [
                 "world.opensemantic.core"
             ],
-            "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.base/main/base/",
+            "baseURL": "https://raw.githubusercontent.com/Terravac/world.opensemantic.base/main/base/",
             "pages": [
                 {
                     "name": "OSW92cf5f3e72824a65b5d48746b4722e10",
@@ -659,6 +659,9 @@
                     "slots": {
                         "footer": {
                             "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_footer.wikitext"
+                        },
+                        "footer_template": {
+                            "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_footer_template.wikitext"
                         },
                         "header": {
                             "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_header.wikitext"
