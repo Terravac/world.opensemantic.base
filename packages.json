@@ -202,6 +202,9 @@
                         "header": {
                             "urlPath": "Category/OSW0e084decca6f48a7b023d6b7b2c1452d.slot_header.wikitext"
                         },
+                        "header_template": {
+                            "urlPath": "Category/OSW0e084decca6f48a7b023d6b7b2c1452d.slot_header_template.wikitext"
+                        },
                         "jsondata": {
                             "urlPath": "Category/OSW0e084decca6f48a7b023d6b7b2c1452d.slot_jsondata.json"
                         },
@@ -643,6 +646,9 @@
                         "header": {
                             "urlPath": "Category/OSWd845b96813a344458f140e48c4d063fd.slot_header.wikitext"
                         },
+                        "header_template": {
+                            "urlPath": "Category/OSWd845b96813a344458f140e48c4d063fd.slot_header_template.wikitext"
+                        },
                         "jsondata": {
                             "urlPath": "Category/OSWd845b96813a344458f140e48c4d063fd.slot_jsondata.json"
                         },
@@ -665,6 +671,9 @@
                         },
                         "header": {
                             "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_header.wikitext"
+                        },
+                        "header_template": {
+                            "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_header_template.wikitext"
                         },
                         "jsondata": {
                             "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_jsondata.json"
@@ -1472,6 +1481,9 @@
                         "header": {
                             "urlPath": "Category/OSW8c56fd1e858f499da801691c5f2b7309.slot_header.wikitext"
                         },
+                        "header_template": {
+                            "urlPath": "Category/OSW8c56fd1e858f499da801691c5f2b7309.slot_header_template.wikitext"
+                        },
                         "jsondata": {
                             "urlPath": "Category/OSW8c56fd1e858f499da801691c5f2b7309.slot_jsondata.json"
                         },
@@ -1766,6 +1778,9 @@
                         },
                         "header": {
                             "urlPath": "Category/OSW90640829797c4b859548a796f8f6dca6.slot_header.wikitext"
+                        },
+                        "header_template": {
+                            "urlPath": "Category/OSW90640829797c4b859548a796f8f6dca6.slot_header_template.wikitext"
                         },
                         "jsondata": {
                             "urlPath": "Category/OSW90640829797c4b859548a796f8f6dca6.slot_jsondata.json"

@@ -5,7 +5,7 @@
     "type": [
         "Category:Category"
     ],
-    "uuid": "e5aa96bf-fb1c-4d95-be7f-bd46142ad203",
+    "version": "0.1.0",
     "label": [
         {
             "text": "Process",
@@ -16,7 +16,45 @@
             "lang": "de"
         }
     ],
-    "name": "Process",
+    "properties": [
+        {
+            "type": "string",
+            "uuid": "78e05a30-3da0-441d-9be6-1f7c20a0714d",
+            "name": "comment",
+            "rdf_property": "Property:HasComment",
+            "label": [
+                {
+                    "text": "Messkommentar",
+                    "lang": "de"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Beschreibender Kommentar, der für Messparametern, Probenbezeichnungen, Abweichungen vom Standardprozess, etc. verwendet wird",
+                    "lang": "de"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "iri",
+            "uuid": "a2c9cd90-36b5-4861-9f2f-fc33506652fb",
+            "name": "jobid",
+            "rdf_property": "Property:HasJobID",
+            "label": [
+                {
+                    "text": "Auftrags-ID",
+                    "lang": "de"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        }
+    ],
+    "uuid": "e5aa96bf-fb1c-4d95-be7f-bd46142ad203",
     "description": [
         {
             "text": "Members of the Process Category describe the act of changing the state or properties of something",
@@ -27,6 +65,7 @@
             "lang": "de"
         }
     ],
+    "name": "Process",
     "metaclass": [
         "Category:OSWc11438cd6c814ed1a5a253555ee351b4"
     ]

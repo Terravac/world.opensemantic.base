@@ -1,0 +1,16 @@
+<table class="info_box">
+<tr>
+<th class="heading" colspan="2">{{{_label_schema|Web Service}}}</th>
+</tr>
+<tr>
+<td class="subheading" colspan="2">Info</td>
+</tr>
+<tr>
+<th>{{{_label_host|Host}}}</th>
+<td>{{#ask:[[{{FULLPAGENAME}}]]|?HasHost=|format=plain|mainlabel=-}}</td>
+</tr>
+<tr>
+<th>{{{_label_network_port|Network port}}}</th>
+<td>{{#ask:[[{{FULLPAGENAME}}]]|?HasPort=|format=plain|mainlabel=-}}</td>
+</tr>
+</table>
