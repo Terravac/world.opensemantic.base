@@ -161,7 +161,10 @@
             "enum": [
                 "Item:OSWaa8d29404288446a9f3ec7afa4e2a512",
                 "Item:OSWa2b4567ad4874ea1b9adfed19a3d06d1",
-                "Item:OSWf474ec34b7df451ea8356134241aef8a"
+                "Item:OSWf474ec34b7df451ea8356134241aef8a",
+                "Item:OSWbf87b0400b2c44e8991e2489f5516c2f",
+                "Item:OSWc6960f29ecc74a0681e746a3cc31fa6f",
+                "Item:OSW844296696d9e4fa597f03213365d5dda"
             ],
             "options": {
                 "_autocomplete": {
@@ -170,13 +173,19 @@
                 "enum_titles": [
                     "To do",
                     "In work",
-                    "Done"
+                    "Done",
+                    "Failed",
+                    "Awaiting evaluation",
+                    "Warning"
                 ],
                 "enum_titles*": {
                     "de": [
                         "Zu tun",
                         "In Arbeit",
-                        "Erledigt"
+                        "Erledigt",
+                        "Fehlgeschlagen",
+                        "Wartet auf Auswertung",
+                        "Warnung"
                     ]
                 },
                 "grid_columns": 6

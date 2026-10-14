@@ -15,7 +15,7 @@
             "globalID": "world.opensemantic.base",
             "label": "OSW Base",
             "description": "Provides base items like Article, Person, Project",
-            "version": "0.42.8.4",
+            "version": "0.42.8.5",
             "requiredPackages": [
                 "world.opensemantic.core"
             ],
