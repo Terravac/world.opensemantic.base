@@ -1,0 +1,20 @@
+{
+    "name": "HasComment",
+    "property_type": "Text",
+    "type": [
+        "Category:DataProperty"
+    ],
+    "uuid": "8bd9a03e-a6fc-4670-937d-6e030c9dfdf0",
+    "label": [
+        {
+            "text": "HasComment",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Messkommentar",
+            "lang": "de"
+        }
+    ]
+}

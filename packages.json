@@ -15,26 +15,870 @@
             "globalID": "world.opensemantic.base",
             "label": "OSW Base",
             "description": "Provides base items like Article, Person, Project",
-            "version": "0.42.8.1",
+            "version": "0.42.8.3",
             "requiredPackages": [
                 "world.opensemantic.core"
             ],
             "baseURL": "https://raw.githubusercontent.com/Terravac/world.opensemantic.base/main/base/",
             "pages": [
                 {
-                    "name": "OSW92cf5f3e72824a65b5d48746b4722e10",
-                    "label": "WorldOpensemanticBase",
-                    "namespace": "NS_ITEM",
-                    "urlPath": "Item/OSW92cf5f3e72824a65b5d48746b4722e10.slot_main.wikitext",
+                    "name": "HasComment",
+                    "label": "HasComment",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasComment.slot_main.wikitext",
                     "slots": {
                         "footer": {
-                            "urlPath": "Item/OSW92cf5f3e72824a65b5d48746b4722e10.slot_footer.wikitext"
+                            "urlPath": "Property/HasComment.slot_footer.wikitext"
                         },
                         "header": {
-                            "urlPath": "Item/OSW92cf5f3e72824a65b5d48746b4722e10.slot_header.wikitext"
+                            "urlPath": "Property/HasComment.slot_header.wikitext"
                         },
                         "jsondata": {
-                            "urlPath": "Item/OSW92cf5f3e72824a65b5d48746b4722e10.slot_jsondata.json"
+                            "urlPath": "Property/HasComment.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasComment.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasJobID",
+                    "label": "HasJobID",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasJobID.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasJobID.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasJobID.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasJobID.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasJobID.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasDate",
+                    "label": "HasDate",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasDate.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasDate.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasDate.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasDate.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasStartDate",
+                    "label": "HasStartDate",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasStartDate.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasStartDate.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasStartDate.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasStartDate.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasStartDateAndTime",
+                    "label": "HasStartDateAndTime",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasStartDateAndTime.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasStartDateAndTime.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasStartDateAndTime.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasStartDateAndTime.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasEndDate",
+                    "label": "HasEndDate",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasEndDate.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasEndDate.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasEndDate.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasEndDate.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasEndDateAndTime",
+                    "label": "HasEndDateAndTime",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasEndDateAndTime.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasEndDateAndTime.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasEndDateAndTime.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasEndDateAndTime.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasInput",
+                    "label": "HasInput",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasInput.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasInput.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasInput.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasInput.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasOutput",
+                    "label": "HasOutput",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasOutput.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasOutput.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasOutput.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasOutput.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasParticipant",
+                    "label": "HasParticipant",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasParticipant.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasParticipant.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasParticipant.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasParticipant.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasParticipant.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasTool",
+                    "label": "HasTool",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasTool.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasTool.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasTool.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasTool.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasTool.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasSerialNumber",
+                    "label": "HasSerialNumber",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasSerialNumber.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasSerialNumber.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasSerialNumber.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasSerialNumber.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasInstructions",
+                    "label": "HasInstructions",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasInstructions.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasInstructions.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasInstructions.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasInstructions.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasInstructions.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasManual",
+                    "label": "HasManual",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasManual.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasManual.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasManual.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasManual.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasTypeNumber",
+                    "label": "HasTypeNumber",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasTypeNumber.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasTypeNumber.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasTypeNumber.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasTypeNumber.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasManufacturer",
+                    "label": "HasManufacturer",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasManufacturer.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasManufacturer.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasManufacturer.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasManufacturer.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasManufacturer.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasDataSheet",
+                    "label": "HasDataSheet",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasDataSheet.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasDataSheet.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasDataSheet.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasDataSheet.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasDataSheet.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasSafetyDataSheet",
+                    "label": "HasSafetyDataSheet",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasSafetyDataSheet.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasSafetyDataSheet.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasSafetyDataSheet.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasSafetyDataSheet.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasSafetyDataSheet.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasEvent",
+                    "label": "HasEvent",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasEvent.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasEvent.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasEvent.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasEvent.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasEvent.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasSlot",
+                    "label": "HasSlot",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasSlot.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasSlot.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasSlot.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasSlot.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasSlot.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasOccupant",
+                    "label": "HasOccupant",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasOccupant.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasOccupant.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasOccupant.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasOccupant.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasOccupant.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasTarget",
+                    "label": "HasTarget",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasTarget.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasTarget.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasTarget.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasTarget.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasTarget.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasAction",
+                    "label": "HasAction",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasAction.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasAction.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasAction.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasAction.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasAction.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasTypeRestriction",
+                    "label": "HasTypeRestriction",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasTypeRestriction.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasTypeRestriction.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasTypeRestriction.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasTypeRestriction.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasTypeRestriction.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasInitDate",
+                    "label": "HasInitDate",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasInitDate.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasInitDate.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasInitDate.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasInitDate.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasTypicalProcess",
+                    "label": "HasTypicalProcess",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasTypicalProcess.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasTypicalProcess.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasTypicalProcess.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasTypicalProcess.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "IsRelatedTo",
+                    "label": "IsRelatedTo",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/IsRelatedTo.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/IsRelatedTo.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/IsRelatedTo.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/IsRelatedTo.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasPhoneNumber",
+                    "label": "HasPhoneNumber",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasPhoneNumber.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasPhoneNumber.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasPhoneNumber.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasPhoneNumber.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasApprover",
+                    "label": "HasApprover",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasApprover.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasApprover.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasApprover.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasApprover.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasOrderer",
+                    "label": "HasOrderer",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasOrderer.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasOrderer.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasOrderer.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasOrderer.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasContact",
+                    "label": "HasContact",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasContact.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasContact.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasContact.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasContact.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasResponsiblePerson",
+                    "label": "HasResponsiblePerson",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasResponsiblePerson.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasResponsiblePerson.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasResponsiblePerson.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasResponsiblePerson.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "IsLocatedIn",
+                    "label": "IsLocatedIn",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/IsLocatedIn.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/IsLocatedIn.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/IsLocatedIn.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/IsLocatedIn.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasDepartment",
+                    "label": "HasDepartment",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasDepartment.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasDepartment.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasDepartment.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasDepartment.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasInventoryNumber",
+                    "label": "HasInventoryNumber",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasInventoryNumber.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasInventoryNumber.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasInventoryNumber.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasInventoryNumber.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasOwner",
+                    "label": "HasOwner",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasOwner.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasOwner.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasOwner.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasOwner.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasNetworkDomain",
+                    "label": "HasNetworkDomain",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasNetworkDomain.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasNetworkDomain.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasNetworkDomain.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasNetworkDomain.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasIp4Address",
+                    "label": "HasIp4Address",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasIp4Address.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasIp4Address.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasIp4Address.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasIp4Address.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasPostalAddress",
+                    "label": "HasPostalAddress",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasPostalAddress.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasPostalAddress.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasPostalAddress.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasPostalAddress.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasPostalAddress.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasEmail",
+                    "label": "HasEmail",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasEmail.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasEmail.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasEmail.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasEmail.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasDimensionlessRatio",
+                    "label": "DimensionlessRatio",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasDimensionlessRatio.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasDimensionlessRatio.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasDimensionlessRatio.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasDimensionlessRatio.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasProbabilityOfSuccessfulFunding",
+                    "label": "HasProbabilityOfSuccessfulFunding",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasProbabilityOfSuccessfulFunding.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasProbabilityOfSuccessfulFunding.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasProbabilityOfSuccessfulFunding.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasProbabilityOfSuccessfulFunding.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasMonetaryValue",
+                    "label": "HasMonetaryValue",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasMonetaryValue.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasMonetaryValue.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasMonetaryValue.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasMonetaryValue.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasBudget",
+                    "label": "HasBudget",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasBudget.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasBudget.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasBudget.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasBudget.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasWeightedBudget",
+                    "label": "HasWeightedBudget",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasWeightedBudget.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasWeightedBudget.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasWeightedBudget.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasWeightedBudget.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasAbbreviation",
+                    "label": "HasAbbreviation",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasAbbreviation.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasAbbreviation.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasAbbreviation.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasAbbreviation.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasOrganization",
+                    "label": "HasOrganization",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasOrganization.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasOrganization.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasOrganization.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasOrganization.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasOu",
+                    "label": "HasOu",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasOu.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasOu.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasOu.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasOu.slot_jsondata.json"
                         }
                     }
                 },
@@ -78,6 +922,29 @@
                         },
                         "header": {
                             "urlPath": "JsonSchema/Duration.slot_header.wikitext"
+                        }
+                    }
+                },
+                {
+                    "name": "PrefectWorkflowRuns",
+                    "namespace": "NS_JSONSCHEMA",
+                    "urlPath": "JsonSchema/PrefectWorkflowRuns.slot_main.json",
+                    "slots": {}
+                },
+                {
+                    "name": "OSW92cf5f3e72824a65b5d48746b4722e10",
+                    "label": "WorldOpensemanticBase",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSW92cf5f3e72824a65b5d48746b4722e10.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSW92cf5f3e72824a65b5d48746b4722e10.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSW92cf5f3e72824a65b5d48746b4722e10.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSW92cf5f3e72824a65b5d48746b4722e10.slot_jsondata.json"
                         }
                     }
                 },
@@ -1576,12 +2443,6 @@
                     }
                 },
                 {
-                    "name": "PrefectWorkflowRuns",
-                    "namespace": "NS_JSONSCHEMA",
-                    "urlPath": "JsonSchema/PrefectWorkflowRuns.slot_main.json",
-                    "slots": {}
-                },
-                {
                     "name": "OSWb2d7e6a2eff94c82b7f1f2699d5b0ee3",
                     "label": "Project",
                     "namespace": "NS_CATEGORY",
@@ -2803,827 +3664,6 @@
                     "namespace": "NS_TEMPLATE",
                     "urlPath": "Template/Editor/Requirements.slot_main.wikitext",
                     "slots": {}
-                },
-                {
-                    "name": "HasDate",
-                    "label": "HasDate",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasDate.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasDate.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasDate.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasDate.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasStartDate",
-                    "label": "HasStartDate",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasStartDate.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasStartDate.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasStartDate.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasStartDate.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasStartDateAndTime",
-                    "label": "HasStartDateAndTime",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasStartDateAndTime.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasStartDateAndTime.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasStartDateAndTime.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasStartDateAndTime.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasEndDate",
-                    "label": "HasEndDate",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasEndDate.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasEndDate.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasEndDate.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasEndDate.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasEndDateAndTime",
-                    "label": "HasEndDateAndTime",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasEndDateAndTime.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasEndDateAndTime.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasEndDateAndTime.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasEndDateAndTime.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasInput",
-                    "label": "HasInput",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasInput.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasInput.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasInput.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasInput.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasOutput",
-                    "label": "HasOutput",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasOutput.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasOutput.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasOutput.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasOutput.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasParticipant",
-                    "label": "HasParticipant",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasParticipant.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasParticipant.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasParticipant.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasParticipant.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasParticipant.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasTool",
-                    "label": "HasTool",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasTool.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasTool.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasTool.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasTool.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasTool.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasSerialNumber",
-                    "label": "HasSerialNumber",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasSerialNumber.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasSerialNumber.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasSerialNumber.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasSerialNumber.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasInstructions",
-                    "label": "HasInstructions",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasInstructions.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasInstructions.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasInstructions.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasInstructions.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasInstructions.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasManual",
-                    "label": "HasManual",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasManual.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasManual.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasManual.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasManual.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasTypeNumber",
-                    "label": "HasTypeNumber",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasTypeNumber.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasTypeNumber.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasTypeNumber.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasTypeNumber.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasManufacturer",
-                    "label": "HasManufacturer",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasManufacturer.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasManufacturer.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasManufacturer.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasManufacturer.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasManufacturer.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasDataSheet",
-                    "label": "HasDataSheet",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasDataSheet.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasDataSheet.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasDataSheet.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasDataSheet.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasDataSheet.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasSafetyDataSheet",
-                    "label": "HasSafetyDataSheet",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasSafetyDataSheet.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasSafetyDataSheet.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasSafetyDataSheet.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasSafetyDataSheet.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasSafetyDataSheet.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasEvent",
-                    "label": "HasEvent",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasEvent.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasEvent.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasEvent.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasEvent.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasEvent.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasSlot",
-                    "label": "HasSlot",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasSlot.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasSlot.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasSlot.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasSlot.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasSlot.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasOccupant",
-                    "label": "HasOccupant",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasOccupant.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasOccupant.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasOccupant.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasOccupant.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasOccupant.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasTarget",
-                    "label": "HasTarget",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasTarget.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasTarget.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasTarget.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasTarget.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasTarget.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasAction",
-                    "label": "HasAction",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasAction.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasAction.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasAction.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasAction.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasAction.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasTypeRestriction",
-                    "label": "HasTypeRestriction",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasTypeRestriction.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasTypeRestriction.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasTypeRestriction.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasTypeRestriction.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasTypeRestriction.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasInitDate",
-                    "label": "HasInitDate",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasInitDate.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasInitDate.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasInitDate.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasInitDate.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasTypicalProcess",
-                    "label": "HasTypicalProcess",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasTypicalProcess.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasTypicalProcess.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasTypicalProcess.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasTypicalProcess.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "IsRelatedTo",
-                    "label": "IsRelatedTo",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/IsRelatedTo.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/IsRelatedTo.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/IsRelatedTo.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/IsRelatedTo.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasPhoneNumber",
-                    "label": "HasPhoneNumber",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasPhoneNumber.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasPhoneNumber.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasPhoneNumber.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasPhoneNumber.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasApprover",
-                    "label": "HasApprover",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasApprover.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasApprover.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasApprover.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasApprover.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasOrderer",
-                    "label": "HasOrderer",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasOrderer.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasOrderer.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasOrderer.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasOrderer.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasContact",
-                    "label": "HasContact",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasContact.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasContact.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasContact.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasContact.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasResponsiblePerson",
-                    "label": "HasResponsiblePerson",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasResponsiblePerson.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasResponsiblePerson.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasResponsiblePerson.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasResponsiblePerson.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "IsLocatedIn",
-                    "label": "IsLocatedIn",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/IsLocatedIn.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/IsLocatedIn.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/IsLocatedIn.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/IsLocatedIn.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasDepartment",
-                    "label": "HasDepartment",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasDepartment.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasDepartment.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasDepartment.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasDepartment.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasInventoryNumber",
-                    "label": "HasInventoryNumber",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasInventoryNumber.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasInventoryNumber.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasInventoryNumber.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasInventoryNumber.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasOwner",
-                    "label": "HasOwner",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasOwner.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasOwner.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasOwner.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasOwner.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasNetworkDomain",
-                    "label": "HasNetworkDomain",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasNetworkDomain.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasNetworkDomain.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasNetworkDomain.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasNetworkDomain.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasIp4Address",
-                    "label": "HasIp4Address",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasIp4Address.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasIp4Address.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasIp4Address.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasIp4Address.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasPostalAddress",
-                    "label": "HasPostalAddress",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasPostalAddress.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasPostalAddress.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasPostalAddress.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasPostalAddress.slot_jsondata.json"
-                        },
-                        "jsonschema": {
-                            "urlPath": "Property/HasPostalAddress.slot_jsonschema.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasEmail",
-                    "label": "HasEmail",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasEmail.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasEmail.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasEmail.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasEmail.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasDimensionlessRatio",
-                    "label": "DimensionlessRatio",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasDimensionlessRatio.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasDimensionlessRatio.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasDimensionlessRatio.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasDimensionlessRatio.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasProbabilityOfSuccessfulFunding",
-                    "label": "HasProbabilityOfSuccessfulFunding",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasProbabilityOfSuccessfulFunding.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasProbabilityOfSuccessfulFunding.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasProbabilityOfSuccessfulFunding.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasProbabilityOfSuccessfulFunding.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasMonetaryValue",
-                    "label": "HasMonetaryValue",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasMonetaryValue.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasMonetaryValue.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasMonetaryValue.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasMonetaryValue.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasBudget",
-                    "label": "HasBudget",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasBudget.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasBudget.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasBudget.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasBudget.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasWeightedBudget",
-                    "label": "HasWeightedBudget",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasWeightedBudget.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasWeightedBudget.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasWeightedBudget.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasWeightedBudget.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasAbbreviation",
-                    "label": "HasAbbreviation",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasAbbreviation.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasAbbreviation.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasAbbreviation.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasAbbreviation.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasOrganization",
-                    "label": "HasOrganization",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasOrganization.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasOrganization.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasOrganization.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasOrganization.slot_jsondata.json"
-                        }
-                    }
-                },
-                {
-                    "name": "HasOu",
-                    "label": "HasOu",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "urlPath": "Property/HasOu.slot_main.wikitext",
-                    "slots": {
-                        "footer": {
-                            "urlPath": "Property/HasOu.slot_footer.wikitext"
-                        },
-                        "header": {
-                            "urlPath": "Property/HasOu.slot_header.wikitext"
-                        },
-                        "jsondata": {
-                            "urlPath": "Property/HasOu.slot_jsondata.json"
-                        }
-                    }
                 }
             ]
         }

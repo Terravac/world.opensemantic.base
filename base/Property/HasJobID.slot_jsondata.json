@@ -1,0 +1,20 @@
+{
+    "name": "HasJobID",
+    "property_type": "Text",
+    "type": [
+        "Category:DataProperty"
+    ],
+    "uuid": "a2120b71-1e18-4424-a1be-6d60cac83f08",
+    "label": [
+        {
+            "text": "HasJobID",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Auftrags-ID",
+            "lang": "de"
+        }
+    ]
+}
