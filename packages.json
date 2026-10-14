@@ -15,7 +15,7 @@
             "globalID": "world.opensemantic.base",
             "label": "OSW Base",
             "description": "Provides base items like Article, Person, Project",
-            "version": "0.42.8.3",
+            "version": "0.42.8.4",
             "requiredPackages": [
                 "world.opensemantic.core"
             ],
@@ -1905,6 +1905,57 @@
                         },
                         "jsondata": {
                             "urlPath": "Item/OSWaa8d29404288446a9f3ec7afa4e2a512.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWbf87b0400b2c44e8991e2489f5516c2f",
+                    "label": "Failed",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWbf87b0400b2c44e8991e2489f5516c2f.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWbf87b0400b2c44e8991e2489f5516c2f.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWbf87b0400b2c44e8991e2489f5516c2f.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWbf87b0400b2c44e8991e2489f5516c2f.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWc6960f29ecc74a0681e746a3cc31fa6f",
+                    "label": "Waiting",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWc6960f29ecc74a0681e746a3cc31fa6f.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWc6960f29ecc74a0681e746a3cc31fa6f.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWc6960f29ecc74a0681e746a3cc31fa6f.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWc6960f29ecc74a0681e746a3cc31fa6f.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW844296696d9e4fa597f03213365d5dda",
+                    "label": "Warning",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSW844296696d9e4fa597f03213365d5dda.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSW844296696d9e4fa597f03213365d5dda.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSW844296696d9e4fa597f03213365d5dda.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSW844296696d9e4fa597f03213365d5dda.slot_jsondata.json"
                         }
                     }
                 },
