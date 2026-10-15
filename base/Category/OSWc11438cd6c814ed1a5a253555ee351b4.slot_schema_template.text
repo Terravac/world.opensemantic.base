@@ -40,40 +40,31 @@
             "items": {
                 "options": {
                     "autocomplete": {
-                        "query": "{{#each tools}}[[{{{tools}}}{{{tool_type}}}]]{{#unless @last}} OR {{/unless}}{{/each}}"            
+                        "query": "{{#each tools}}[[{{{tools}}}{{{tool_type}}}]]{{#unless @last}} OR {{/unless}}{{/each}}"
                     }
-                }
-            },
-            "default": [
-                {{#each tools}}"{{{tools}}}{{{tool_default}}}"{{#unless @last}},
-                {{/unless}}{{/each}}
-            ]
+                }{{#if tools.[0].tool_type}},
+                "range": "{{{tools.[0].tool_type}}}"{{/if}}
+            }{{#join tools ", " ', "default": [' ']'}}{{#if tool_default}}"{{{tool_default}}}"{{/if}}{{/join}}
         } {{/if}} {{#if input}},
         "input": {
             "items": {
                 "options": {
                     "autocomplete": {
-                        "query": "{{#each input}}[[{{{input}}}{{{input_type}}}]]{{#unless @last}} OR {{/unless}}{{/each}}"            
+                        "query": "{{#each input}}[[{{{input}}}{{{input_type}}}]]{{#unless @last}} OR {{/unless}}{{/each}}"
                     }
-                }
-            },
-            "default": [
-                {{#each input}}"{{{input}}}{{{input_default}}}"{{#unless @last}},
-                {{/unless}}{{/each}}
-            ]
+                }{{#if input.[0].input_type}},
+                "range": "{{{input.[0].input_type}}}"{{/if}}
+            }{{#join input ", " ', "default": [' ']'}}{{#if input_default}}"{{{input_default}}}"{{/if}}{{/join}}
         } {{/if}} {{#if output}},
         "output": {
             "items": {
                 "options": {
                     "autocomplete": {
-                        "query": "{{#each output}}[[{{{output}}}{{{output_type}}}]]{{#unless @last}} OR {{/unless}}{{/each}}"            
+                        "query": "{{#each output}}[[{{{output}}}{{{output_type}}}]]{{#unless @last}} OR {{/unless}}{{/each}}"
                     }
-                }
-            },
-            "default": [
-                {{#each output}}"{{{output}}}{{{output_default}}}"{{#unless @last}},
-                {{/unless}}{{/each}}
-            ]
+                }{{#if output.[0].output_type}},
+                "range": "{{{output.[0].output_type}}}"{{/if}}
+            }{{#join output ", " ', "default": [' ']'}}{{#if output_default}}"{{{output_default}}}"{{/if}}{{/join}}
         } {{/if}} {{/replace}}
     } 
 }
